@@ -1,10 +1,13 @@
 # TradePilot Releases
 
-Windows 10/11 x64 installer for TradePilot. The app source repository remains separate and private.
+Android releases for the standalone TradePilot mobile app. The source project remains in its separate repository. The app runs its Python engine and SQLite database on-device; it does not require a PC server.
 
-Latest stable release: [v0.3.0](https://github.com/HeesungYang1/auto-trading-system-releases/releases/tag/v0.3.0)
+## Current Android release: 0.4.0
 
-- Installer: [TradePilot-Setup-0.3.0.exe](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.3.0/TradePilot-Setup-0.3.0.exe)
-- SHA-256: [SHA256SUMS.txt](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.3.0/SHA256SUMS.txt)
+- Android APK: [TradePilot-0.4.0-android.apk](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.0/TradePilot-0.4.0-android.apk)
+- SHA-256 file: [SHA256SUMS.txt](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.0/SHA256SUMS.txt)
+- Release notes: [GitHub release v0.4.0](https://github.com/HeesungYang1/auto-trading-system-releases/releases/tag/v0.4.0)
 
-The app checks GitHub on startup and every six hours, verifies the exact installer SHA-256, and applies updates only while trading is safely idle. The installer contains the runtime files needed by the app. This repository tracks this README only; release assets contain only the installer and its checksum. No Android/iOS installer is published.
+The Android app checks anonymous public release metadata and verifies the APK checksum, package, version, and signing certificate before offering the standard Android installer. Installation always requires the Android system confirmation. This is the first Android mobile release; the retired Windows PC 0.3.0 release is not an Android update source.
+
+iOS has no installable release in this version. No source archive, SDK, QA material, or user data is published here. Release assets contain the Android APK and SHA256SUMS.txt only.
