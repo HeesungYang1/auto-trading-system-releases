@@ -2,12 +2,12 @@
 
 Android releases for the standalone TradePilot mobile app. The source project remains in its separate repository. The app runs its Python engine and SQLite database on-device; it does not require a PC server.
 
-## Current Android release: 0.4.0
+## Current Android release: 0.4.1
 
-- Android APK: [TradePilot-0.4.0-android.apk](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.0/TradePilot-0.4.0-android.apk)
-- SHA-256 file: [SHA256SUMS.txt](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.0/SHA256SUMS.txt)
-- Release notes: [GitHub release v0.4.0](https://github.com/HeesungYang1/auto-trading-system-releases/releases/tag/v0.4.0)
+- Android APK: [TradePilot-0.4.1-android.apk](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.1/TradePilot-0.4.1-android.apk)
+- SHA-256 file: [SHA256SUMS.txt](https://github.com/HeesungYang1/auto-trading-system-releases/releases/download/v0.4.1/SHA256SUMS.txt)
+- Release notes: [GitHub release v0.4.1](https://github.com/HeesungYang1/auto-trading-system-releases/releases/tag/v0.4.1)
 
-The Android app checks anonymous public release metadata and verifies the APK checksum, package, version, and signing certificate before offering the standard Android installer. Installation always requires the Android system confirmation. This is the first Android mobile release; the retired Windows PC 0.3.0 release is not an Android update source.
+The Android app checks anonymous public release metadata and verifies the APK checksum, package, version, and signing certificate before offering the standard Android installer. Installation always requires the Android system confirmation. Windows PC 0.3.0 is a retired legacy build and is not an Android update source.
 
 iOS has no installable release in this version. No source archive, SDK, QA material, or user data is published here. Release assets contain the Android APK and SHA256SUMS.txt only.
